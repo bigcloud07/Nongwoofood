@@ -1,7 +1,7 @@
 import { useState } from "react";
-import foodimg1 from "../../assets/food_img/home_instant/1.jpg"
-import foodimg2 from "../../assets/food_img/home_instant/2.jpg"
-import foodimg3 from "../../assets/food_img/home_instant/3.jpg"
+import foodimg1 from "../../assets/food_img/instant/1.jpg"
+import foodimg2 from "../../assets/food_img/instant/2.jpg"
+import foodimg3 from "../../assets/food_img/instant/3.jpg"
 
 import fryimg1 from "../../assets/food_img/3/1.jpg"
 import fryimg2 from "../../assets/food_img/3/2.jpg"
