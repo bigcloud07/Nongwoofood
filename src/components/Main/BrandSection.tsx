@@ -7,26 +7,26 @@ import foodimg4 from "../../assets/food_img/2/1.jpg"
 import foodimg5 from "../../assets/food_img/2/2.jpg"
 import foodimg6 from "../../assets/food_img/2/3.jpg"
 
-const tabs = ["가정간편식", "요리재료", "디저트·스낵·음료", "Better For You"];
+const tabs = ["식자재", "조미료", "튀김", "야채·과일"];
 
 const brandData: Record<string, { name: string; image: string }[]> = {
-  가정간편식: [
+  식자재: [
     { name: "간편뚝딱", image: foodimg1 },
     { name: "간편뚝딱2", image: foodimg2 },
     { name: "간편뚝딱3", image: foodimg3 },
   ],
-  요리재료: [
+  조미료: [
     { name: "다진마늘", image: foodimg4 },
     { name: "냉동파", image: foodimg5 },
     { name: "냉동양파", image: foodimg6 },
   ],
-  "디저트·스낵·음료": [
+  "튀김": [
     { name: "트윙클", image: "/images/brand-snack1.jpg" },
     { name: "스윗허그", image: "/images/brand-snack2.jpg" },
     { name: "스윗어니언", image: "/images/brand-snack2.jpg" },
     
   ],
-  "Better For You": [
+  "야채·과일": [
     { name: "헬로굿", image: "/images/brand-healthy.jpg" },
     { name: "리틀쿡", image: "/images/brand-littlecook.jpg" },
     { name: "요리요리", image: "/images/brand-littlecook.jpg" },
@@ -34,7 +34,7 @@ const brandData: Record<string, { name: string; image: string }[]> = {
 };
 
 const BrandSection = () => {
-  const [activeTab, setActiveTab] = useState("가정간편식");
+  const [activeTab, setActiveTab] = useState("식자재");
 
   return (
     <section className="bg-white py-20 text-center">

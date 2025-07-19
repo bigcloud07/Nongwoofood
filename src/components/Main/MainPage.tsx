@@ -1,18 +1,25 @@
 import React from 'react';
-import DropdownNav from "./DropdownNav";
-import MainSlider from './MainSlider';
+import Top from "./Top";
 import AboutSection from './AboutSection';
 import BrandSection from './BrandSection';
 import Footer from './Footer';
+import NewsroomSection from './NewsroomSection';
+import CommunitySection from './CommunitySection';
+import RecipeSection from './RecipeSection';
 
 
 const MainPage: React.FC = () => {
     return (
         <div>
-            <DropdownNav/>
-            <MainSlider/>
+            <Top/>
+            
             <AboutSection/>
             <BrandSection/>
+            <NewsroomSection/>
+            
+            <RecipeSection/>
+
+            <CommunitySection/>
             <Footer/>
         </div>
     );

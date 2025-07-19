@@ -46,8 +46,8 @@ const Footer = () => {
           {/* Family Site */}
           <select className="border border-gray-300 rounded px-4 py-2 text-sm text-gray-700">
             <option>Family Site</option>
-            <option>Samyang USA</option>
-            <option>Samyang China</option>
+            <option>Nongwoo USA</option>
+            <option>Nongwoo China</option>
           </select>
 
           {/* 수상 이미지 */}
