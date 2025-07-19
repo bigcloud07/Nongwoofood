@@ -1,5 +1,5 @@
 import logo from "../../assets/nongwoofood_logo.png"
-import brandimg from "../../assets/brand_img/1.png";
+
 
 const Footer = () => {
   return (
