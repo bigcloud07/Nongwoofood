@@ -1,11 +1,19 @@
 import { useState } from "react";
-import foodimg1 from "../../assets/food_img/home_instant/kimchi_jeon.jpg"
-import foodimg2 from "../../assets/food_img/home_instant/nokdu_jeon.jpg"
-import foodimg3 from "../../assets/food_img/home_instant/potato_jeon.jpg"
+import foodimg1 from "../../assets/food_img/home_instant/1.jpg"
+import foodimg2 from "../../assets/food_img/home_instant/2.jpg"
+import foodimg3 from "../../assets/food_img/home_instant/3.jpg"
+
+import fryimg1 from "../../assets/food_img/3/1.jpg"
+import fryimg2 from "../../assets/food_img/3/2.jpg"
+import fryimg3 from "../../assets/food_img/3/3.jpg"
 
 import foodimg4 from "../../assets/food_img/2/1.jpg"
 import foodimg5 from "../../assets/food_img/2/2.jpg"
 import foodimg6 from "../../assets/food_img/2/3.jpg"
+
+import vage1 from "../../assets/vege_img/1.jpg"
+import vage2 from "../../assets/vege_img/2.jpg"
+import vage3 from "../../assets/vege_img/3.jpg"
 
 const tabs = ["식자재", "조미료", "튀김", "야채·과일"];
 
@@ -21,15 +29,15 @@ const brandData: Record<string, { name: string; image: string }[]> = {
     { name: "냉동양파", image: foodimg6 },
   ],
   "튀김": [
-    { name: "트윙클", image: "/images/brand-snack1.jpg" },
-    { name: "스윗허그", image: "/images/brand-snack2.jpg" },
-    { name: "스윗어니언", image: "/images/brand-snack2.jpg" },
+    { name: "트윙클", image: fryimg1 },
+    { name: "스윗허그", image: fryimg2 },
+    { name: "스윗어니언", image: fryimg3 },
     
   ],
   "야채·과일": [
-    { name: "헬로굿", image: "/images/brand-healthy.jpg" },
-    { name: "리틀쿡", image: "/images/brand-littlecook.jpg" },
-    { name: "요리요리", image: "/images/brand-littlecook.jpg" },
+    { name: "헬로굿", image: vage1 },
+    { name: "리틀쿡", image: vage2 },
+    { name: "요리요리", image: vage3 },
   ],
 };
 
@@ -74,7 +82,7 @@ const BrandSection = () => {
             <img
               src={brand.image}
               alt={brand.name}
-              className="w-full h-[280px] object-cover"
+              className="w-full h-[500px] object-cover"
             />
           </div>
         ))}

@@ -62,7 +62,7 @@ const Top: React.FC = () => {
   const swiperRef = useRef<SwiperCore | null>(null);
 
   return (
-    <div className="relative w-full h-[800px]">
+    <div className="relative w-full h-[700px]">
       {/* ✅ 네비게이션 바 */}
       <div className="absolute top-0 left-0 w-full z-30 bg-opacity-30">
         <div
