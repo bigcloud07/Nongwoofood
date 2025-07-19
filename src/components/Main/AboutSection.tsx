@@ -1,7 +1,5 @@
 import logo from  "../../assets/nongwoofood_logo.png"
 import company_img from "../../assets/company_img.jpg";
-import brandimg1 from "../../assets/brand_img/1.png";
-import brandimg2 from "../../assets/brand_img/2.png";
 import freshfood from "../../assets/fresh_food.png";
 
 const aboutData = [

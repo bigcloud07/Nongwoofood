@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import foodimg1 from "../../assets/food_img/home_instant/kimchi_jeon.jpg"
 import foodimg2 from "../../assets/food_img/home_instant/nokdu_jeon.jpg"
 import foodimg3 from "../../assets/food_img/home_instant/potato_jeon.jpg"
