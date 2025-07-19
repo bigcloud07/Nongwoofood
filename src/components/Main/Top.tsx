@@ -59,7 +59,7 @@ const images = [
 const Top: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const [activeSlide, setActiveSlide] = useState(0);
-  const swiperRef = useRef<SwiperCore>();
+  const swiperRef = useRef<SwiperCore | null>(null);
 
   return (
     <div className="relative w-full h-[800px]">
